@@ -1,6 +1,19 @@
-Describe: add()
-Test: "It adds two numbers together and returns the sum"
-Expect(add(2,3)).toEqual(5);
+Describe: rollDice();
+Test: "It will generate a random number from a click input"
+Expect(rollDice(click)).toEqual(random integer between 1 and 6);
+
+Describe: endTurn();
+Test: "It will hide player 1 buttons and show player 2 buttons"
+Expect(rollDice(click)).toEqual(random integer between 1 and 6);
+
+Describe: switch(digit)
+Test: "If digit is 1 then call endTurn(), will also set turntotal = 0"
+Expect(switch(1)).toEqual(endturn);
+
+
+
+
+
 
 Descibe: 
 Click button to start game.  
@@ -43,8 +56,8 @@ if (1total <= 100 || 2total<= 100) {
 
 switch(digit) {
   case (1):
-  1total = turnTotal
-  endTurn(); // hide player1 dice show player 2 dice
+  turntotal = 0;
+  endTurn(); // hide player1 dice show player 2 dice 
   break;
   case (2):
   case (3):
@@ -54,4 +67,9 @@ switch(digit) {
    turnTotal = digit + turnTotal;
     break;
 }
+}
+
+function holdTurn(click) {
+  1total = 1total + turntotal;
+  //hide player 1 show player 2 
 }
