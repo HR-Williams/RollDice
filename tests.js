@@ -1,4 +1,4 @@
-Describe: rollDice();
+ayersDescribe: rollDice();
 Test: "It will generate a random number from a click input"
 Expect(rollDice(click)).toEqual(random integer between 1 and 6);
 
