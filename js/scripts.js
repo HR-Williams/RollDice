@@ -1,5 +1,6 @@
+let digit = 0;
 function rollDice() {
-  return Math.floor((Math.random() * 6) + 1);
+  digit = Math.floor((Math.random() * 6) + 1);
 }
 
 funtion endTurn() {
@@ -22,6 +23,8 @@ function Player(name, totalScore, turnTotal) {
   this.turnTotal = 0;
 }
 
+let player1 = new Player("Player1", "", "")
+
 
 Player.prototype.holdTurn = function(turnTotal) {
   return this.totalScore = this.totalScore + turnTotal;
@@ -31,21 +34,27 @@ ScoreCard.prototype.addPlayer = function(player) {
   this.players[player.name] = player;
 }
 
-let digit = rollDice(); 
 
-Player.prototype.addDigit = function(digit) {
+Player.prototype.doSomething = function() {
+  this.players[]
+}
+
+
+Player.prototype.addDigit = function() {
   switch(digit) {
     case (1):
-    turntotal = 0;
-    endTurn(); // hide player1 dice show player 2 dice 
+    this.turnTotal = 0
+    // endTurn(); // hide player1 dice show player 2 dice 
     break;
     case (2):
     case (3):
     case (4):
     case (5):
     case (6):
-     turnTotal = digit + turnTotal;
+     this.turnTotal = this.turnTotal + digit;
       break;
   }
 }
+
+
 
