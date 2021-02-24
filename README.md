@@ -13,7 +13,7 @@
 
 ## Description
 
-_This is an assignment for Epicodus to demonstrate new skills in JavaScript objects, constructors and prototypes. It is a simple version of the game pig dice. Two users can play rolling the dice until one user reaches 100 and wins._
+_This is an assignment for Epicodus to demonstrate new skills in JavaScript objects, constructors and prototypes. It is a simple version of the game pig dice. Two users can play, rolling the dice until one user reaches 100 and wins._
 
 ## Setup/Installation Requirements
 
