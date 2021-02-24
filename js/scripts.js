@@ -35,9 +35,7 @@ ScoreCard.prototype.addPlayer = function(player) {
 }
 
 
-Player.prototype.doSomething = function() {
-  this.players[]
-}
+Player.prototype.doSomething 
 
 
 Player.prototype.addDigit = function() {
@@ -55,6 +53,5 @@ Player.prototype.addDigit = function() {
       break;
   }
 }
-
 
 
